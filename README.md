@@ -10,7 +10,7 @@ A template aimed to help people getting started in building wonderful apps using
 * [Express 3.2.6](http://expressjs.com/)
 * [AngularJS 1.0.7](http://angularjs.org/)
 * [RequireJS 2.1.6](http://requirejs.org/)
-* [Angular UI Bootstrap 0.4.0](http://angular-ui.github.io/bootstrap/)
+* [Angular UI Bootstrap 0.6.0](http://angular-ui.github.io/bootstrap/)
 
 ##Webserver
 If you are planning on running the application on a linux server with [NGINX](http://wiki.nginx.org/Main) serving the static files, and [Forever](https://github.com/nodejitsu/forever) serving the dynamic files, then you can find some templates in */configs* to get you started.
