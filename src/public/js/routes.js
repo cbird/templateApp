@@ -5,7 +5,7 @@ define(['globals'], function (globals) {
         
         $routeProvider.when('/', //here we can add params like, :oneParam
             {
-                templateUrl: 'partials/mainView.html',
+                templateUrl: '/partials/mainView.html',
                 //controller: 'MainViewCtrl' //use when only one controller exists in the template
                 resolve: {
                     testData: ['$q', '$route', 'exampleService', function ($q, $route, exampleService) {
@@ -21,12 +21,12 @@ define(['globals'], function (globals) {
 
         $routeProvider.when('/about',
             {
-                templateUrl: 'partials/about.html'
+                templateUrl: '/partials/about.html'
             });
 
         $routeProvider.when('/contact',
             {
-                templateUrl: 'partials/contact.html'
+                templateUrl: '/partials/contact.html'
             });
 
         //all other routes redirects to /
