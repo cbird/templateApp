@@ -9,7 +9,7 @@ A template aimed to help people getting started in building wonderful apps using
 ##Included
 * [Express 3.2.6](http://expressjs.com/)
 * [AngularJS 1.0.8](http://angularjs.org/)
-* [RequireJS 2.1.6](http://requirejs.org/)
+* [RequireJS 2.1.8](http://requirejs.org/)
 * [Angular UI Bootstrap 0.6.0](http://angular-ui.github.io/bootstrap/)
 
 ##Webserver
